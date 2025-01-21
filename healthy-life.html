@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamGreen - Healthy Life</title>
+    <link rel="stylesheet" href="styleshealthylife.css"> <!-- Archivo CSS para el dashboard -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Iconos Font Awesome -->
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="/IMGS/CamGreenLogo.jpg" alt="CamGreen Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a id="inicio" href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a id= "actividades" href="#actividades"><i class="fa-solid fa-list-check"></i> Actividades</a></li>
+                <li class="active"><a id= "healthy-life" href="#healthy-life"><i class="fa-solid fa-heart-pulse"></i> Healthy Life</a></li>
+                <li><a id= "logros" href="#logros"><i class="fa-solid fa-trophy"></i> Logros</a></li>
+                <li><a id= "estadisticas" href="#estadisticas"><i class="fas fa-chart-line"></i> Estadísticas</a></li>
+                <li><a id= "perfil" href="#perfil"><i class="fas fa-user"></i> Perfil</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <header>
+            <h1>Healthy Life</h1>
+            <button id="logout">Cerrar Sesión</button>
+        </header>
+    </div>
+    <script src="scriptdashboard.js"></script> <!-- Archivo de script del dashboard -->
+</body>
+</html>
