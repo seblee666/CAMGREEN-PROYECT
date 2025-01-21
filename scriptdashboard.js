@@ -29,7 +29,7 @@ if (activeIndex !== null) {
 document.getElementById('logout').addEventListener('click', () => {
     const confirmLogout = confirm('¿Estás seguro de que deseas cerrar sesión?');
     if (confirmLogout) {
-        window.location.href = 'Login.html'; // Redirige al usuario a Login.html
+        window.location.href = 'index.html'; // Redirige al usuario a index.html
     }
 });
 document.getElementById('actividades').addEventListener('click', () => {
